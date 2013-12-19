@@ -1,28 +1,19 @@
 Subway Stopper - L train
 
-This application connects with the MTA realtime data feed to bring up-to-date train arrival information
-along stops on the L-train.
+This application connects with the MTA realtime data feed to bring up-to-date train arrival information along stops on the L-train.
 
 Features:
-	-Main list presents all L-train stops, their destination, and the number of minutes until the
-		next train arrival.
-	-Stop specific window gives to-the-second information on the arrival times of all trains
-		en route to that stop.
+	-Main list presents all L-train stops, their destination, and the number of minutes until the next train arrival.
+	-Stop specific window gives to-the-second information on the arrival times of all trains en route to that stop.
 	-All information is updated continuously to make sure UI is up to date.
-	-Countinues to count down when there is no internet connection so UI is not affected by 
-		the change. Toast message appears to notify network disconnection and time
-		on main list appears as NA. Updates automatically at network reconnection
+	-Countinues to count down when there is no internet connection so UI is not affected by the change. Toast message appears to notify network disconnection and time on main list appears as NA. Updates automatically at network reconnection
 	
 Known Bugs:
-	-Two stops for which there is no arrival time information appear on the list and are 
-		clickable
+	-Two stops for which there is no arrival time information appear on the list and are clickable
 	-Toast appears everwhere when there is no network connection.
 	
-	
-	
 Notes:
-	-Contrary to information presented on the MTA website, only L-train information
-		appears on their datafeed.
+	-Contrary to information presented on the MTA website, only L-train information appears on their datafeed.
 	-Developed on Samsung Galaxy SIII, compatible with other phones of comparable size
 	-minimum android API: JellyBean (4.1)
 	-Data presented has not been tested against the actual subway
