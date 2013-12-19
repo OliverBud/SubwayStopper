@@ -98,7 +98,7 @@ public class StartingActivity extends Activity {
 			 synchronized (this) {
 			        try {
 			           while (true){
-			            wait(5000);
+			            wait(2000);
 			            runOnUiThread(new Runnable(){
 
 							@Override
