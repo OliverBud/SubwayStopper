@@ -11,6 +11,7 @@ Features:
 Known Bugs:
 	-Two stops for which there is no arrival time information appear on the list and are clickable
 	-Toast appears everwhere when there is no network connection.
+	-Intermittant problems loading fresh minute data on main list
 	
 Notes:
 	-Contrary to information presented on the MTA website, only L-train information appears on their datafeed.
