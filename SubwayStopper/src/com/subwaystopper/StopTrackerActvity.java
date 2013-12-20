@@ -64,7 +64,7 @@ public class StopTrackerActvity extends FragmentActivity {
 				break;
 				
 			}
-			if (i != 0 && secs == times_list.get(i-1)){
+			if (i != 0 && i-1 <= times_list.size() && secs == times_list.get(i-1)){
 				Log.d("cursor", "added time");
 				continue;
 			}
